@@ -210,7 +210,7 @@ Test Accuracy (%): Mean(Std.)
 | VGG-11     | CIFAR10       | 92.38(0.06) | **92.49(0.11)** |
 | VGG-11     | CIFAR100      | 68.42(0.12) | **69.03(0.24)** |
 
-#### Robustness on Network Width and Depth on Image Classification with CIFAR100
+#### Retention of Training Ability on Image Classification with CIFAR100 in Various Network Width and Depth Settings
 
 Test Accuracy (%): Mean(Std.)
 
@@ -224,9 +224,17 @@ Test Accuracy (%): Mean(Std.)
 | VGG-16     | 64/128/256/512    | 72.51(0.26) | **72.53(0.17)** |
 | VGG-19     | 64/128/256/512    | 71.53(0.32) | **72.17(0.33)** |
 
-#### Performance of Angle-Based Operators Applied to Penultimate Layer on CIFAR10
+#### Analysis on the Effect of Projection on Image Classification with CIFAR10
 
-Test Accuracy (%): Mean(Std.)
+Tr/Ts Acc.: Train/Test Accuracy (%)
+
+\# err.: the number of errors in overlapping samples
+
+\# ovlp.: the number of overlapping samples
+
+ratio: ratio of # err. to # ovlp. (%)
+
+The mean and standard deviation are represented as Mean(Std.)
 
 | Operator   | Tr Acc. | Ts Acc. | # err. | # ovlp. | ratio |
 |:----------:|:-------:|:-------:|:------:|:-------:|:-------:|
