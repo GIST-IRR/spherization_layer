@@ -227,8 +227,8 @@ Test Accuracy (%): Mean(Std.)
 #### Analysis on the Effect of Projection on Image Classification with CIFAR10
 
 Tr/Ts Acc.: Train/Test Accuracy (%)
-# err.: the number of errors in overlapping samples
-# ovlp.: the number of overlapping samples
+\# err.: the number of errors in overlapping samples
+\# ovlp.: the number of overlapping samples
 ratio: ratio of # err. to # ovlp. (%)
 
 The mean and standard deviation are represented as Mean(Std.)
